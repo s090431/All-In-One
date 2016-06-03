@@ -1,0 +1,232 @@
+@font-face {
+  font-family: DIN;
+  src: url("DINEngschriftStd.otf");
+}
+
+.background{
+  position: absolute;
+  width: 100%;
+  z-index: -50;
+}
+
+.slide{
+  position: absolute;
+  width: 100%;
+  z-index: 100;
+  right: -27%;
+  opacity: 0;
+  height: 800px;
+  transform: scaleX(0.45);
+  z-index: 100;
+}
+
+.fb{
+  position: absolute;
+  width: 4%;
+  left: 100px;
+}
+
+.ins{
+  position: absolute;
+  left: 165px;
+  top: 7px;
+  width: 3.6%;
+}
+
+.twt{
+  position: absolute;
+  width: 5.5%;
+  left: 220px;
+  top: -5px;
+}
+
+.home{
+  position: absolute;
+  width: 8%;
+  left: 0px;
+  top: -9px;
+}
+
+.links{
+  position: absolute;
+
+}
+
+.link{
+  width: 250px;
+  font-size: 3em;
+  font-family: DIN;
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+  transition: transform 1s;
+  text-align: center;
+  z-index: 400;
+}
+
+.who{
+  position: absolute;
+  top: 200px;
+  left: 150px;
+
+}
+
+.what{
+  position: absolute;
+  top: 350px;
+  left: 150px;
+}
+
+.evenement{
+  position: absolute;
+  top: 500px;
+  left: 150px;
+}
+
+.contact{
+  position: absolute;
+  top: 650px;
+  left: 150px;
+}
+
+.link:hover{
+  transform: scale(1.2);
+}
+
+
+@keyframes slide{
+  0%{
+    transform: scaleY(0.1);
+    transform: scaleX(0.45);
+    opacity: 0;
+  }
+  100%{
+    transform: scaleY(1);
+    transform: scaleX(0.45);
+    opacity: 1;
+  }
+}
+
+@keyframes opacity{
+  0%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
+}
+
+@keyframes opacityout{
+  opacity: 0;
+}
+
+.tekstcontact{
+  color: rgb(0, 183, 163);
+  font-family: DIN;
+  font-weight: bold;
+  width: 35%;
+  font-size: 1.7em;
+  position: absolute;
+  right: 5%;
+  top: 10%;
+  opacity: 0;
+  z-index: 300;
+  text-align: center;
+}
+
+.tekstwho{
+  color: rgb(0, 183, 163);
+  font-family: DIN;
+  font-weight: bold;
+  width: 35%;
+  font-size: 1.7em;
+  position: absolute;
+  right: 5%;
+  top: 10%;
+  opacity: 0;
+  z-index: 300;
+  text-align: center;
+}
+
+.tekstwhat{
+  color: rgb(0, 183, 163);
+  font-family: DIN;
+  font-weight: bold;
+  width: 35%;
+  font-size: 1.7em;
+  position: absolute;
+  right: 5%;
+  top: 10%;
+  opacity: 0;
+  z-index: 300;
+  text-align: center;
+}
+
+.tekstevenement{
+  color: rgb(0, 183, 163);
+  font-family: DIN;
+  font-weight: bold;
+  width: 35%;
+  font-size: 1.7em;
+  position: absolute;
+  right: 5%;
+  top: 10%;
+  opacity: 0;
+  z-index: 300;
+  text-align: center;
+}
+
+p{
+  padding: 3%;
+  font-size: 0.7em;
+  text-align: left;
+  line-height: 1.5em;
+}
+
+.plattegrond{
+  width: 100%;
+}
+.verpakking{
+  width: 100%;
+}
+.gebouw{
+  width: 100%;
+}
+.ontbijt{
+  width: 90%;
+}
+
+
+.ball{
+  position: absolute;
+  z-index: 600;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background-color: white;
+}
+
+.een{
+  top: 275px;
+  left: 260px;
+}
+
+.twee{
+  top: 425px;
+  left: 260px;
+}
+
+.drie{
+  top: 575px;
+  left: 260px;
+
+}
+
+.vier{
+  top: 725px;
+  left: 260px;
+}
+
+.route{
+  font-size: 0.6em;
+}
